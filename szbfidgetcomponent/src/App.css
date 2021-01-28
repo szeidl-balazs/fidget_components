@@ -1,0 +1,32 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  background-color: sandybrown;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.wrapper {
+  border: 10px solid rgb(116, 54, 3);
+  box-shadow:rgb(83, 84, 85) 2px 5px;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+h1 {
+  margin: 20px;
+}
+

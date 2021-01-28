@@ -1,0 +1,113 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.colorButton1, .colorButton2, .colorButton3, .colorButton4, .colorButton5, .minus, .plus {
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: sandybrown;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile1 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+}
+
+.minus {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(66, 159, 235);
+  margin: 5px;
+  box-shadow:rgb(83, 84, 85) 1px 1px;
+}
+
+.plus {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(236, 129, 28);
+  margin: 5px;
+  box-shadow:rgb(83, 84, 85) 1px 1px;  
+}
+
+.plus:hover, .minus:hover {
+  transform: scale(1.1);
+  
+}
+
+.colorButton1 {
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+	box-shadow: rgb(83, 84, 85) 1px 1px;
+	margin: 15px;
+}
+
+.colorButton2 {
+  background-color: yellow;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+	box-shadow: rgb(83, 84, 85) 1px 1px;
+	margin: 15px;
+ }
+
+ .colorButton3 {
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+	box-shadow: rgb(83, 84, 85) 1px 1px;
+	margin: 15px;
+ }
+
+ .colorButton4 {
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+	box-shadow: rgb(83, 84, 85) 1px 1px;
+	margin: 15px;
+ }
+
+ .colorButton5 {
+  background-color: purple;
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+	box-shadow: rgb(83, 84, 85) 1px 1px;
+	margin: 15px;
+ }
+
+ .colorButton1:hover, .colorButton2:hover, .colorButton3:hover, .colorButton4:hover, .colorButton5:hover {
+   transform: scale(1.3);
+ }
+
+ 

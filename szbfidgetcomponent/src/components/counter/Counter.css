@@ -1,0 +1,43 @@
+*,
+*::before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.minus, .plus {
+  outline: none;
+  border: none;
+}
+
+
+.minus {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(66, 159, 235);
+  margin: 5px;
+  box-shadow:rgb(83, 84, 85) 1px 1px;
+}
+
+.plus {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(236, 129, 28);
+  margin: 5px;
+  box-shadow:rgb(83, 84, 85) 1px 1px;  
+}
+
+.plus:hover, .minus:hover {
+  transform: scale(1.1);  
+}
+
+.tile2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
